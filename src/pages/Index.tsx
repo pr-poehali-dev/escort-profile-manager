@@ -15,7 +15,7 @@ interface Model {
   height: number;
   weight: number;
   bust: number;
-  metro: string;
+  district: string;
   services: string[];
   price: string;
   priceHour: number;
@@ -39,7 +39,7 @@ const models: Model[] = [
     height: 168,
     weight: 52,
     bust: 3,
-    metro: 'Арбатская',
+    district: 'Центр',
     services: ['Классический секс', 'Минет', 'Куннилингус', 'Массаж'],
     price: '5000 ₽/час',
     priceHour: 5000,
@@ -61,7 +61,7 @@ const models: Model[] = [
     height: 172,
     weight: 55,
     bust: 3,
-    metro: 'Тверская',
+    district: 'Южное Измайлово',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Стриптиз'],
     price: '6000 ₽/час',
     priceHour: 6000,
@@ -83,7 +83,7 @@ const models: Model[] = [
     height: 175,
     weight: 58,
     bust: 4,
-    metro: 'Маяковская',
+    district: 'Железнодорожный',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Лесби', 'Групповой секс'],
     price: '8000 ₽/час',
     priceHour: 8000,
@@ -105,7 +105,7 @@ const models: Model[] = [
     height: 165,
     weight: 50,
     bust: 2,
-    metro: 'Курская',
+    district: 'Никольско-Архангельский',
     services: ['Классический секс', 'Минет', 'Массаж', 'Стриптиз'],
     price: '4000 ₽/час',
     priceHour: 4000,
@@ -127,7 +127,7 @@ const models: Model[] = [
     height: 170,
     weight: 54,
     bust: 3,
-    metro: 'Парк Культуры',
+    district: 'Салтыковка',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Куннилингус'],
     price: '5500 ₽/час',
     priceHour: 5500,
@@ -149,7 +149,7 @@ const models: Model[] = [
     height: 178,
     weight: 60,
     bust: 4,
-    metro: 'Киевская',
+    district: 'Авиаторов',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Лесби', 'БДСМ'],
     price: '10000 ₽/час',
     priceHour: 10000,
@@ -171,7 +171,7 @@ const models: Model[] = [
     height: 167,
     weight: 51,
     bust: 2,
-    metro: 'Белорусская',
+    district: 'Гагарина',
     services: ['Классический секс', 'Минет', 'Массаж'],
     price: '4500 ₽/час',
     priceHour: 4500,
@@ -193,7 +193,7 @@ const models: Model[] = [
     height: 173,
     weight: 56,
     bust: 3,
-    metro: 'Новокузнецкая',
+    district: 'Балашиха-1',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Стриптиз', 'Ролевые игры'],
     price: '7000 ₽/час',
     priceHour: 7000,
@@ -215,7 +215,7 @@ const models: Model[] = [
     height: 169,
     weight: 53,
     bust: 3,
-    metro: 'Октябрьская',
+    district: 'Балашиха-2',
     services: ['Классический секс', 'Минет', 'Массаж', 'Куннилингус', 'Лесби'],
     price: '6500 ₽/час',
     priceHour: 6500,
@@ -237,7 +237,7 @@ const models: Model[] = [
     height: 176,
     weight: 59,
     bust: 4,
-    metro: 'Павелецкая',
+    district: 'Западная',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Групповой секс', 'БДСМ'],
     price: '9000 ₽/час',
     priceHour: 9000,
@@ -259,7 +259,7 @@ const models: Model[] = [
     height: 166,
     weight: 51,
     bust: 2,
-    metro: 'Комсомольская',
+    district: 'Восточная',
     services: ['Классический секс', 'Минет', 'Массаж', 'Стриптиз'],
     price: '4500 ₽/час',
     priceHour: 4500,
@@ -281,7 +281,7 @@ const models: Model[] = [
     height: 171,
     weight: 55,
     bust: 3,
-    metro: 'Таганская',
+    district: 'Янтарный',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Куннилингус', 'Ролевые игры'],
     price: '6000 ₽/час',
     priceHour: 6000,
@@ -303,7 +303,7 @@ const models: Model[] = [
     height: 174,
     weight: 57,
     bust: 3,
-    metro: 'Пушкинская',
+    district: 'Новый',
     services: ['Классический секс', 'Минет', 'Массаж', 'Стриптиз', 'Лесби'],
     price: '5500 ₽/час',
     priceHour: 5500,
@@ -325,7 +325,7 @@ const models: Model[] = [
     height: 177,
     weight: 61,
     bust: 4,
-    metro: 'Смоленская',
+    district: 'Московский',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'БДСМ', 'Групповой секс'],
     price: '11000 ₽/час',
     priceHour: 11000,
@@ -347,7 +347,7 @@ const models: Model[] = [
     height: 168,
     weight: 52,
     bust: 3,
-    metro: 'Третьяковская',
+    district: 'Заря',
     services: ['Классический секс', 'Минет', 'Массаж', 'Куннилингус'],
     price: '5000 ₽/час',
     priceHour: 5000,
@@ -369,7 +369,7 @@ const models: Model[] = [
     height: 170,
     weight: 54,
     bust: 3,
-    metro: 'Сокол',
+    district: 'Купавна',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Стриптиз', 'Ролевые игры'],
     price: '6500 ₽/час',
     priceHour: 6500,
@@ -391,7 +391,7 @@ const models: Model[] = [
     height: 165,
     weight: 50,
     bust: 2,
-    metro: 'Динамо',
+    district: 'Кучино',
     services: ['Классический секс', 'Минет', 'Массаж'],
     price: '4000 ₽/час',
     priceHour: 4000,
@@ -413,7 +413,7 @@ const models: Model[] = [
     height: 172,
     weight: 56,
     bust: 3,
-    metro: 'Профсоюзная',
+    district: 'Первомайский',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Куннилингус', 'Лесби'],
     price: '7000 ₽/час',
     priceHour: 7000,
@@ -435,7 +435,7 @@ const models: Model[] = [
     height: 175,
     weight: 58,
     bust: 4,
-    metro: 'Кропоткинская',
+    district: 'Павлино',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'БДСМ', 'Ролевые игры'],
     price: '9500 ₽/час',
     priceHour: 9500,
@@ -457,7 +457,7 @@ const models: Model[] = [
     height: 169,
     weight: 53,
     bust: 3,
-    metro: 'Чистые Пруды',
+    district: 'Поле Чудес',
     services: ['Классический секс', 'Минет', 'Массаж', 'Стриптиз', 'Куннилингус'],
     price: '5500 ₽/час',
     priceHour: 5500,
@@ -479,7 +479,7 @@ const models: Model[] = [
     height: 173,
     weight: 56,
     bust: 3,
-    metro: 'Менделеевская',
+    district: 'Керамик',
     services: ['Классический секс', 'Минет', 'Анал', 'Массаж', 'Лесби', 'Групповой секс'],
     price: '8000 ₽/час',
     priceHour: 8000,
@@ -498,7 +498,7 @@ const models: Model[] = [
 
 const Index = () => {
   const [selectedModel, setSelectedModel] = useState<Model | null>(null);
-  const [metroFilter, setMetroFilter] = useState<string>('all');
+  const [districtFilter, setDistrictFilter] = useState<string>('all');
   const [ageRange, setAgeRange] = useState<number[]>([18, 45]);
   const [priceRange, setPriceRange] = useState<number[]>([1000, 20000]);
   const [onlyVerified, setOnlyVerified] = useState(false);
@@ -506,7 +506,7 @@ const Index = () => {
   const [sortBy, setSortBy] = useState<string>('popular');
 
   let filteredModels = models.filter(model => {
-    if (metroFilter !== 'all' && model.metro !== metroFilter) return false;
+    if (districtFilter !== 'all' && model.district !== districtFilter) return false;
     if (model.age < ageRange[0] || model.age > ageRange[1]) return false;
     if (model.priceHour < priceRange[0] || model.priceHour > priceRange[1]) return false;
     if (onlyVerified && !model.isVerified) return false;
@@ -528,7 +528,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-8">
-              <h1 className="text-2xl font-bold text-gold">MOSWOM</h1>
+              <h1 className="text-2xl font-bold text-gold">Балашшки</h1>
               <nav className="hidden md:flex gap-6">
                 <a href="#" className="text-sm text-foreground/80 hover:text-gold transition-colors">Главная</a>
                 <a href="#" className="text-sm text-foreground/80 hover:text-gold transition-colors">Новые</a>
@@ -554,16 +554,18 @@ const Index = () => {
               
               <div className="space-y-4">
                 <div>
-                  <label className="text-sm text-foreground/70 mb-2 block">Метро</label>
-                  <Select value={metroFilter} onValueChange={setMetroFilter}>
+                  <label className="text-sm text-foreground/70 mb-2 block">Район</label>
+                  <Select value={districtFilter} onValueChange={setDistrictFilter}>
                     <SelectTrigger className="bg-secondary border-border/50">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="all">Все станции</SelectItem>
-                      <SelectItem value="Арбатская">Арбатская</SelectItem>
-                      <SelectItem value="Тверская">Тверская</SelectItem>
-                      <SelectItem value="Маяковская">Маяковская</SelectItem>
+                      <SelectItem value="all">Все районы</SelectItem>
+                      <SelectItem value="Центр">Центр</SelectItem>
+                      <SelectItem value="Южное Измайлово">Южное Измайлово</SelectItem>
+                      <SelectItem value="Железнодорожный">Железнодорожный</SelectItem>
+                      <SelectItem value="Салтыковка">Салтыковка</SelectItem>
+                      <SelectItem value="Авиаторов">Авиаторов</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -644,7 +646,7 @@ const Index = () => {
             <div className="flex items-center justify-between mb-6">
               <div>
                 <h2 className="text-2xl font-bold text-gold mb-1">
-                  Индивидуалки Москвы
+                  Индивидуалки Балашихи
                 </h2>
                 <p className="text-sm text-foreground/60">
                   Найдено анкет: {filteredModels.length}
@@ -697,7 +699,7 @@ const Index = () => {
                           <h3 className="text-2xl font-bold text-gold mb-1">{model.name}, {model.age} лет</h3>
                           <div className="flex items-center gap-2 text-sm text-foreground/60">
                             <Icon name="MapPin" size={14} />
-                            <span>м. {model.metro}</span>
+                            <span>{model.district}</span>
                             <span>•</span>
                             <span>{model.apartment}</span>
                           </div>
@@ -783,7 +785,7 @@ const Index = () => {
                     </DialogTitle>
                     <div className="flex items-center gap-3 text-foreground/60">
                       <Icon name="MapPin" size={16} />
-                      <span>м. {selectedModel.metro}</span>
+                      <span>{selectedModel.district}</span>
                       <span>•</span>
                       <span>{selectedModel.apartment}</span>
                     </div>
@@ -874,9 +876,9 @@ const Index = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="text-gold font-bold mb-4">MOSWOM</h3>
+              <h3 className="text-gold font-bold mb-4">Балашшки</h3>
               <p className="text-foreground/60 text-sm">
-                Крупнейший каталог проституток Москвы с проверенными анкетами
+                Крупнейший каталог индивидуалок Балашихи с проверенными анкетами
               </p>
             </div>
             <div>
@@ -904,7 +906,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-border/30 pt-6 text-center text-foreground/40 text-sm">
-            <p>© 2025 MOSWOM. Все права защищены.</p>
+            <p>© 2025 Балашшки. Все права защищены.</p>
           </div>
         </div>
       </footer>
